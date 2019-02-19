@@ -1,0 +1,12 @@
+commit 550af4e7f9bdf62f1156cad4fdae348bb769bf27 (HEAD -> master)
+Author: Aleksandra Khlebovich <s6674511@gmail.com>
+Date:   Tue Feb 19 12:56:16 2019 +0300
+
+    add task1/status.txt
+
+commit 2d9a42f7125578fbe6e4cc9d54aec24c3822bf53
+Author: Aleksandra Khlebovich <s6674511@gmail.com>
+Date:   Tue Feb 19 12:53:37 2019 +0300
+
+    add .gitignore
+
