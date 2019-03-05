@@ -1,0 +1,360 @@
+@font-face {
+    font-family: Stolzl-Thin;
+    src: url('./fonts/st/Stolzl-Thin.eot');
+    src: url('./fonts/st/Stolzl-Thin.woff2') format('woff2'),
+    url('./fonts/st/Stolzl-Thin.woff') format('woff'),
+    url('./fonts/st/Stolzl-Thin.ttf') format('truetype'),
+    url('./fonts/st/Stolzl-Thin.svg#Stolzl-Thin') format('svg'),
+    url('./fonts/st/Stolzl-Thin.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.logoImg{
+    margin: -0.1% 5%;
+    height: 30px;
+}
+
+.filter-blocks{
+    float: left;
+    font-family: Stolzl-Thin;
+    vertical-align: middle;
+/*    margin: 5px 50px 0px 50px;*/
+    margin: 0.5% 5%;
+}
+
+.filters-picture{
+    float: right;
+    width: 40px;
+    text-align: right;
+    background: url("pictures/menu/filters/filter.png");
+    background-size: 40px;
+}
+
+.filters-picture:active{
+    float: right;
+    /*margin: 5px 5px 5px 80%;*/
+    width: 40px;
+    text-align: right;
+    background: url("pictures/menu/filters/filterAnim.png");
+    background-size: 40px;
+    text-align: right;
+    color: #e3bd8c;
+}
+
+.filter-input{
+    color: #e3bd8c;
+    max-height: 15vh;
+    max-width: 40vw;
+    border-radius: 3px; //закругление углов (общее)
+-webkit-border-radius: 3px; //закругление углов (Google Chrome)
+-moz-border-radius: 3px; //закругление углов (FireFox)
+-khtml-border-radius: 3px; //закругление углов (Safari)
+}
+
+.filter-input:focus {
+    color: #e3bd8c;
+    max-height: 15vh;
+    max-width: 10vm;
+    border: 1px solid #e3bd8c;
+}
+
+.filters-text{
+    text-align: left;
+    vertical-align: middle;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    paddging: auto;
+}
+.filters{
+    height: 50px;
+    max-height: 15vh;
+}
+
+.filters-picture{
+    height: 40px;
+}
+
+.menu-picture{
+    max-height: 15vh;
+    height: 30px;
+    max-width: 15vw;
+    max-height: 15vh;
+}
+
+.menu-block-picture{
+    float:right;
+    margin: -5px 10px 0 15px;
+    text-align: center;
+    height: 25px;
+    max-height: 15vh;
+    line-height: 10px;
+}
+/*label {float: right;}*/
+
+.menu-picture:active {
+    margin: 5px 0 0 0 ;
+    height: 30px;
+    max-width: 15vw;
+    max-height: 15vh;
+
+}
+
+.menu-block-add{
+    float:right;
+    width:15vw;
+    padding: 5px 37% 10px 0;
+    max-width: 15vw;
+    max-height: 15vh;
+
+}
+
+.menu-picture-margin{
+    height: 30px;
+    max-width: 30vw;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.menu-picture-margin:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.name-of-user{
+    float:right;
+    margin: 6px 10px 0 15px;
+    height: 25px;
+    max-height: 15vh;
+    line-height: 10px;
+}
+
+.menu-picture-margin-add{
+    height: 40px;
+    max-width: 25vw;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.menu-picture-margin-add:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.menu{
+    clear: both;
+    height: 50px;
+    border-top-color: #e3bd8c;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+
+
+body{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    height: 80vh;
+}
+
+.scroll-block {
+    clear: both;
+    height: 78.5vh;
+    max-height: 250vw;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.downloadYet{
+    clear:both;
+    text-align: center;
+    height: 70px;
+}
+
+.downloadYet:active{
+    margin: 3px 0 0 0;
+    clear:both;
+    text-align: center;
+    height: 70px;
+}
+
+
+.posts{
+    float:left;
+    margin: 5px 5px 5px 13%;
+}
+
+.photoPost{
+    width: 440px;
+    height: 440px;
+    clear:both;
+}
+
+.editPost{
+    margin: 0 0 0 0;
+    width: 30px;
+    float: right;
+}
+
+.editPost:active{
+    margin: 3px 0 0 0;
+    width: 30px;
+    float: right;
+}
+
+
+.avaPost{
+    width: 50px;
+    float: left;
+}
+
+.postUser{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: black;
+    font-size: 15px;
+    margin: 0px 5px
+}
+
+.dataUser{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: gray;
+    font-size: 15px;
+    margin: 0px 5px
+}
+
+.likePost{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 0px 0px;
+    float: left;
+}
+
+.likePost:active {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 0px 0px;
+    float: left;
+    background: url(pictures/post/like.png);
+    background-size: 30px;
+
+}
+
+.textLike{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: #aa9579;
+    font-style: normal;
+    font-size: 15px;
+    margin: 5px 5px 5px 0px;
+    float: left;
+}
+
+.textComment{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: black;
+    font-size: 15px;
+    margin: 5px 5px 5px 10px;
+}
+
+.textHashTag{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: gray;
+    font-size: 15px;
+    clear: left;
+    /*margin: 5px 5px 5px 10px;*/
+}
+
+header{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e3bd8c;
+    text-align: start;
+    height: 30px;
+}
+
+footer{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e3bd8c;
+    clear: both;
+    background: rgba(227, 189, 140, 0);
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    text-align: center;
+    font-size: 13px;
+    height: 20px;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 98%;
+}
+@media screen and (max-width: 540px) {
+
+    .filter-blocks{
+        float:left;
+        font-family: Stolzl-Thin;
+        vertical-align: middle;
+        max-width: 40px;
+        margin: 5px 5px 5px 5px;
+        font-size: 15px;
+    }
+    .menu-block-add {
+        float: left;
+        width: 2vw;
+        padding: 0  0 0 15px;
+        max-width: 5vw;
+        max-height: 5vh;
+    }
+
+    .menu-block-avatar{
+        float:right;
+        width: 10vw;
+        max-height: 15vh;
+
+    }
+
+    .menu-block-picture{
+        float:left;
+        max-height: 10vh;
+        max-width: 10vw;
+    }
+
+    .menu-picture:active {
+        height: 20px;
+        max-width: 10vw;
+        max-height: 10vh;
+
+    }
+    footer{
+        clear: both;
+        background: #e3bd8c;
+        font-family: Stolzl-Thin, Century Gothic, Georgia;
+        text-align: center;
+        font-size: 10px;
+        height: 20px;
+        position: absolute;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .menu{
+        clear: both;
+        height: 70px;
+        border-top-color: #e3bd8c;
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+
+}

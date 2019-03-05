@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Stolzl-Thin';
+  src: url('Stolzl-Thin.eot');
+  src: url('Stolzl-Thin.woff2') format('woff2'),
+       url('Stolzl-Thin.woff') format('woff'),
+       url('Stolzl-Thin.ttf') format('truetype'),
+       url('Stolzl-Thin.svg#Stolzl-Thin') format('svg'),
+       url('Stolzl-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
