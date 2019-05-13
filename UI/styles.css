@@ -1,11 +1,11 @@
 @font-face {
     font-family: Stolzl-Thin;
-    src: url('./fonts/st/Stolzl-Thin.eot');
-    src: url('./fonts/st/Stolzl-Thin.woff2') format('woff2'),
-    url('./fonts/st/Stolzl-Thin.woff') format('woff'),
-    url('./fonts/st/Stolzl-Thin.ttf') format('truetype'),
-    url('./fonts/st/Stolzl-Thin.svg#Stolzl-Thin') format('svg'),
-    url('./fonts/st/Stolzl-Thin.eot?#iefix') format('embedded-opentype');
+    src: url('fonts/st/Stolzl-Thin.eot');
+    src: url('fonts/st/Stolzl-Thin.woff2') format('woff2'),
+    url('fonts/st/Stolzl-Thin.woff') format('woff'),
+    url('fonts/st/Stolzl-Thin.ttf') format('truetype'),
+    url('fonts/st/Stolzl-Thin.svg#Stolzl-Thin') format('svg'),
+    url('fonts/st/Stolzl-Thin.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,7 +36,7 @@
     height: 10vh;
     width: 50px;
     text-align: right;
-    background: url("pictures/filters/filter.png");
+    background: url("UI/pictures/filters/filter.png");
     background-size: 50px;
 }
 
@@ -44,7 +44,7 @@
     float: right;
     width: 50px;
     text-align: right;
-    background: url("pictures/filters/filterAnim.png");
+    background: url("UI/pictures/filters/filterAnim.png");
     background-size: 50px;
     text-align: right;
     color: #e3bd8c;
