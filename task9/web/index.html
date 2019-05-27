@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Town Viewer</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+<body>
+<div id="error">
+    <p>ERROR</p>
+    <p id="textError"></p>
+</div>
+<div class="editFormPost" id="editFormPostId">
+    <div id ="editPhotoDrop">
+        <p> select new photo.</p>
+        <div id="galleryEdit"></div>
+    </div>
+    <label class="descriptionAdding">Description: <input type="text" class="inputAddingDescr" id="inputDescriptionEdit"></label>
+    <label class="descriptionAdding">Hashtags: <input type="text" class="inputAddingHashtags" id="inputHashtagsEdit"></label>
+    <select class="addingHashtags" name="Popular country" title="Popular country" size="1" id ="selectEdit">
+        <option disabled> Select popular country</option>
+        <option value =""></option>
+        <option>Germany</option>
+        <option>Italy</option>
+        <option>France</option>
+        <option>Belarus</option>
+    </select>
+    <p class="descriptionAdding" id ="userEdit"> User: </p>
+    <p class="descriptionAdding" id ="dataEdit">Date: </p>
+    <img src="resources/other/pictures/menu/add.png" id="editFormAdd" class="menu-picture-margin" alt="Add new post">
+</div>
+
+<div class="formAddingPost" id="formAddPost">
+    <div id ="addPhotoDrop">
+        <p> Choose file.</p>
+        <!--<input type="file" id="loaderFileStand" multiple accept="image/*" onchange="handleFiles(this.files)">-->
+        <div id="gallery"></div>
+    </div>
+    <label class="descriptionAdding">Description: <input type="text" class="inputAddingDescr" id="inputDescription"></label>
+    <label class="descriptionAdding">Hashtags: <input type="text" class="inputAddingHashtags" id="inputHashtags"></label>
+    <select class="addingHashtags" name="Popular country" title="Popular country" size="1" id ="selectAdd">
+        <option disabled> Select popular country</option>
+        <option value =""></option>
+        <option>Germany</option>
+        <option>Add new tag</option>
+        <option>Add new tag</option>
+        <option>Add new tag</option>
+    </select>
+    <p class="descriptionAdding" id ="userAdding">User: </p>
+    <p class="descriptionAdding" id ="dataAdding">Date: </p>
+    <img src="resources/other/pictures/menu/add.png" id="addingFormAdd" class="menu-picture-margin" alt="Add new post">
+</div>
+<div class="grayBackground" id="grayBckd"></div>
+<div class="formAuthorization" id="formAuth">
+    <img src="resources/other/pictures/auth.png" alt="Logo" class="authLogo">
+    <div class="authInputes">
+        <p class="pAuth">Authorisation</p>
+        <div class="inpDivAuth"><input class="inputAuth" type="text" value="Login" id="logAuth"></div>
+        <div class="inpDivAuth"><input class="inputAuth" type="text" value="Password" id="passAuth"></div>
+        <button class="enterBtn" id="loginBtn">Enter</button>
+    </div>
+</div>
+<div>
+    <header>
+        <img src="resources/other/pictures/logo.png" alt="Town Viewer" class="logoImg">
+    </header>
+    <!--block of filters-->
+    <div class="filters">
+        <div class="filter-blocks"><label>Login: <input class="filter-input" type="text" name="firstname" id="login">
+        </label></div>
+        <div class="filter-blocks"><label>Hashtags: <input class="filter-input" type="text" name="firstname" id="hash">
+        </label></div>
+        <div class="filter-blocks"><label>Date: <input class="filter-input" type="text" name="firstname" id="date">
+        </label></div>
+        <select class="filter-blocks" name="Popular countries" title="Popular countries" size="1" id = "selectFilter">
+            <option disabled> Select popular country</option>
+            <option value =""></option>
+            <option>Germany</option>
+            <option>Add new tag</option>
+            <option>Add new tag</option>
+            <option>Add new tag</option>
+        </select>
+        <div class="filters-picture" id="filtersPicture"></div>
+    </div>
+    <div class="posts">
+    </div>
+    <div class="downloadMore" id="downMore"><img src="resources/other/pictures/downloadYet.png" class="downloadMore" alt="Next 10"></div>
+    <div class="menu" id="menu">
+    </div>
+        <script src="resources/js/scrypt.js"></script>
+</div>
+</body>
+<footer>
+    Town Viewer, Khlebovich A., 7 group, 2 course, 03.03, al.khlebovich@gmail.com
+</footer>
+</html>

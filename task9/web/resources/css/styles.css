@@ -1,0 +1,601 @@
+@font-face {
+    font-family: Stolzl-Thin;
+    src: url('fonts/st/Stolzl-Thin.eot');
+    src: url('fonts/st/Stolzl-Thin.woff2') format('woff2'),
+    url('fonts/st/Stolzl-Thin.woff') format('woff'),
+    url('fonts/st/Stolzl-Thin.ttf') format('truetype'),
+    url('fonts/st/Stolzl-Thin.svg#Stolzl-Thin') format('svg'),
+    url('fonts/st/Stolzl-Thin.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logoImg {
+    height: 10vh;
+}
+
+.addingHashtags {
+    font-family: Stolzl-Thin;
+    vertical-align: middle;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+    width: 30%;
+    height: 5%;
+}
+
+.filter-blocks {
+    float: left;
+    font-family: Stolzl-Thin;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.filters-picture {
+    float: right;
+    height: 10vh;
+    width: 50px;
+    text-align: right;
+    background: url("filters/filter.png");
+    background-size: 50px;
+}
+
+.filters-picture:active {
+    float: right;
+    width: 50px;
+    text-align: right;
+    background: url("filters/filterAnim.png");
+    background-size: 50px;
+    text-align: right;
+    color: #e3bd8c;
+}
+
+.filter-input {
+    color: #e3bd8c;
+    max-height: 10vh;
+    max-width: 40vw;
+    border-radius: 3px;
+}
+
+.filter-input:focus {
+    color: #e3bd8c;
+    max-height: 10vh;
+    max-width: 10vm;
+    border-radius: 3px;
+    border: 1px solid #e3bd8c;
+}
+
+.filters-text {
+    text-align: left;
+    vertical-align: middle;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    paddging: auto;
+}
+
+.filters {
+    height: 10vh;
+    max-height: 15vh;
+}
+
+.filters-picture {
+    height: 50px;
+}
+
+.menu-picture {
+    margin: 5px;
+    max-height: 15vh;
+    height: 50px;
+    max-width: 15vw;
+    max-height: 15vh;
+}
+
+.menu-block-picture {
+    float: left;
+    margin: 5px;
+    height: 50px;
+    max-height: 15vh;
+}
+
+.menu-picture:active {
+    margin: 5px;
+    height: 40px;
+    max-width: 15vw;
+    max-height: 15vh;
+
+}
+
+.menu-block-add {
+    float: right;
+    width: 15vw;
+    padding: 5px 30vw 10px 40px;
+    max-width: 15vw;
+    max-height: 15vh;
+
+}
+
+.menu-block-avatar {
+    border-radius: 100px;
+    float: right;
+    max-width: 15vw;
+    height: 50px;
+    padding: 5px 5vw 0vw 0px;
+    max-width: 15vw;
+    max-height: 15vh;
+
+}
+
+.menu-picture-margin {
+    height: 50px;
+    max-width: 40px;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    border-radius: 100px;
+}
+
+.menu-picture-margin:hover {
+    transform: rotate(360deg);
+}
+
+.menu {
+    clear: both;
+    height: 60px;
+    border-top-color: #e3bd8c;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+body {
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    height: 94vh;
+    /*min-width: 556px;*/
+}
+
+.scroll-block {
+    clear: both;
+    height: 63vh;
+    max-height: 250vw;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.downloadMore {
+    clear: both;
+    text-align: center;
+    height: 100px;
+}
+
+.downloadMore:active {
+    clear: both;
+    text-align: center;
+    height: 105px;
+}
+
+.post {
+    float: left;
+    margin: 5px 5px 5px 5%;
+}
+
+.photoPost {
+    width: 250px;
+    height: 250px;
+    clear: both;
+}
+
+.editPost {
+    margin: 0;
+    width: 30px;
+    float: right;
+}
+
+.deletePost{
+    margin: 0;
+    width: 30px;
+    float: right;
+}
+
+.editPost:active {
+    margin: 0;
+    width: 28px;
+    float: right;
+}
+
+.deletePost:active {
+    margin: 0;
+    width: 28px;
+    float: right;
+}
+
+.avaPost {
+    border-radius: 100px;
+    width: 50px;
+    float: left;
+}
+
+.postUser {
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: black;
+    font-size: 15px;
+    margin: 0px 5px
+}
+
+.dataUser {
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: gray;
+    font-size: 15px;
+    text-indent: 20px;
+    margin: 0px 5px
+}
+
+.likePost {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 0px 0px;
+    float: left;
+}
+
+.inpDivAuth {
+    margin-top: 10px;
+}
+
+.main {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 90;
+}
+
+#error{
+    margin-left: 30vw;
+    margin-top: 5vh;
+    background-color: white;
+    width: 50vw;
+    max-width: 360px;
+    height: 30vh;
+    position: fixed;
+    text-align: center;
+    display: none;
+    z-index: 200;
+    border: 1px solid #E3BD8C;
+    border-radius: 8px;
+}
+
+.formAuthorization {
+    margin-left: 30vw;
+    margin-top: 5vh;
+    background-color: white;
+    width: 50vw;
+    max-width: 360px;
+    height: 80vh;
+    position: fixed;
+    text-align: center;
+    display: none;
+    z-index: 150;
+    border: 1px solid #E3BD8C;
+    border-radius: 8px;
+}
+
+.authLogo {
+    width: 15vw;
+    max-width: 110px;
+}
+
+.pAuth {
+    font-size: 20px;
+
+}
+
+.enterBtn {
+    width: 43vw;
+    max-width: 300px;
+    margin-top: 10px;
+    height: 8vh;
+    font-size: 20px;
+    color: #c09f76;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #E3BD8C;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+#textError{
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+}
+
+#addPhotoDrop{
+    border: 2px dashed #ccc;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
+    width: 90%;
+    height: 220px;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+}
+
+#editPhotoDrop{
+    border: 2px dashed #ccc;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
+    width: 90%;
+    height: 220px;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+}
+
+#addPhotoDrop.highlight{
+    border-color: purple;
+}
+
+
+#gallery {
+      margin-top: 10px;
+}
+
+#galleryEdit {
+    margin-top: 10px;
+}
+
+#galleryEdit img {
+     width: 200px;
+     max-height: 130px;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     vertical-align: middle;
+ }
+
+#gallery img {
+    width: 200px;
+    max-height: 130px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#fileElem {
+    display: none;
+}
+
+/*#loaderFileStand{*/
+    /*font-family: Stolzl-Thin, Century Gothic, Georgia;*/
+    /*margin-bottom: 2%;*/
+/*}*/
+
+.formForFile {
+    background: #E3BD8C;
+    color: #FFFFFF;
+    border-radius: 18px;
+    border: 1px solid #E3BD8C;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+}
+
+.descriptionAdding {
+    margin-top: 10px;
+}
+
+.editFormPost{
+    margin-left: 30vw;
+    margin-top: 5vh;
+    background-color: white;
+    width: 50vw;
+    max-width: 360px;
+    height: 80vh;
+    position: fixed;
+    text-align: center;
+    display: none;
+    z-index: 150;
+    border: 1px solid #E3BD8C;
+    border-radius: 8px;
+}
+
+.formAddingPost {
+    margin-left: 30vw;
+    margin-top: 5vh;
+    background-color: white;
+    width: 50vw;
+    max-width: 360px;
+    height: 80vh;
+    position: fixed;
+    text-align: center;
+    display: none;
+    z-index: 150;
+    border: 1px solid #E3BD8C;
+    border-radius: 8px;
+}
+
+.inputAuth {
+    width: 40vw;
+    max-width: 300px;
+    height: 5vh;
+    font-size: 13px;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.inputAddingDescr {
+    width: 50%;
+    max-width: 300px;
+    height: 5%;
+    font-size: 13px;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.inputAddingHashtags {
+    width: 30%;
+    max-width: 300px;
+    height: 5%;
+    font-size: 13px;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.authInputes {
+    margin-top: 20vh;
+}
+
+.likePostUnAuth {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 0px 0px;
+    float: left;
+}
+
+.grayBackground {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    z-index: 100;
+    background-color: rgba(1, 1, 1, 0.75);
+}
+
+.textLike {
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: #e3bd8c;
+    font-size: 15px;
+    margin: 5px 5px 5px 0px;
+    float: left;
+}
+
+.textComment {
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: black;
+    font-size: 15px;
+    margin: 5px 5px 5px 10px;
+}
+
+.textHashTag {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 250px;
+    overflow: hidden;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    color: gray;
+    font-size: 15px;
+    clear: left;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e3bd8c;
+    text-align: center;
+    height: 10vh;
+}
+
+footer {
+    clear: both;
+    background: #e3bd8c;
+    font-family: Stolzl-Thin, Century Gothic, Georgia;
+    text-align: center;
+    height: 6vh;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1044px) {
+    .posts {
+        clear: both;
+        height: 60vh;
+        overflow-y: scroll;
+        text-align: center;
+    }
+
+    footer {
+        clear: both;
+        background: #e3bd8c;
+        font-family: Stolzl-Thin, Century Gothic, Georgia;
+        text-align: center;
+        font-size: 10px;
+        height: 7vh;
+        position: absolute;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .filter-blocks {
+        float: left;
+        font-family: Stolzl-Thin;
+        vertical-align: middle;
+        max-width: 40px;
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .menu-block-add {
+        float: left;
+        width: 2vw;
+        padding: 0 0 0 15px;
+        max-width: 5vw;
+        max-height: 5vh;
+    }
+
+    .menu-block-avatar {
+        float: right;
+        width: 10vw;
+        max-height: 15vh;
+    }
+
+    .menu-block-picture {
+        float: left;
+        max-height: 10vh;
+        max-width: 10vw;
+    }
+
+    .menu-picture:active {
+        height: 40px;
+        max-width: 10vw;
+        max-height: 10vh;
+    }
+
+    footer {
+        clear: both;
+        background: #e3bd8c;
+        font-family: Stolzl-Thin, Century Gothic, Georgia;
+        text-align: center;
+        font-size: 10px;
+        height: 6vh;
+        position: absolute;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .menu {
+        clear: both;
+        height: 70px;
+        border-top-color: #e3bd8c;
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+}
+
+/*@media screen and (max-width: 285px){*/
+/*.scroll-block{*/
+/*clear: both;*/
+/*height: 56vh;*/
+/*!*max-height: 200vw;*!*/
+/*overflow-y: scroll;*/
+/*text-align: center;*/
+/*}*/
+/*}*/
