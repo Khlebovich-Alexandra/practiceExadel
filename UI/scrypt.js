@@ -30,7 +30,7 @@ let ApplicationModel = function () {
             {
                 author: "user4",
                 authorPhoto: "./pictures/post/user4.png",
-                password: "1234",
+                password: "1234"
             }
         ],
         photoPosts: [],
@@ -751,8 +751,11 @@ let EventsModule = function () {
         }
     }
 }();
-// localStorage.clear()
-// ApplicationModel.putPostsAnsUsersInLocalStorage();
+//localStorage.clear()
+if(localStorage == null)
+// {
+//     ApplicationModel.putPostsAnsUsersInLocalStorage();
+// }
 ApplicationModel.fillInformation();
 ViewModule.printOnScreen(ApplicationModel.begOfVisiblePosts, ApplicationModel.begOfVisiblePosts + 10);
 if (ApplicationModel.userAuthorized === null) {
