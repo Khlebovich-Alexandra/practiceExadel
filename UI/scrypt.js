@@ -752,10 +752,10 @@ let EventsModule = function () {
     }
 }();
 //localStorage.clear()
-if(localStorage == null)
-// {
-//     ApplicationModel.putPostsAnsUsersInLocalStorage();
-// }
+if(localStorage.length == 0)
+{
+    ApplicationModel.putPostsAnsUsersInLocalStorage();
+}
 ApplicationModel.fillInformation();
 ViewModule.printOnScreen(ApplicationModel.begOfVisiblePosts, ApplicationModel.begOfVisiblePosts + 10);
 if (ApplicationModel.userAuthorized === null) {
