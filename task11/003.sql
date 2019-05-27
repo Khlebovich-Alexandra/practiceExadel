@@ -1,0 +1,1 @@
+SELECT * FROM photo_post WHERE user_id=2 AND creation_date LIKE '2012-03-04';

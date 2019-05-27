@@ -1,0 +1,1 @@
+SELECT * FROM photo_post WHERE description LIKE '%hello%';
